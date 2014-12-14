@@ -4,4 +4,5 @@ sudo systemctl start haveged
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syy
-sudo pacman -S xfce4 gamin leafpad gvfs gnome-themes-standard firefox flashplugin
+sudo pacman -S xfce4 gamin leafpad gvfs gnome-themes-standard firefox flashplugin slim xdg-user-dirs
+xdg-user-dirs-update
