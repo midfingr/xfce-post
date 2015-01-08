@@ -4,5 +4,5 @@ sudo systemctl start haveged
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syy
-sudo pacman -S xfce4 gamin leafpad gvfs gnome-themes-standard firefox flashplugin slim xdg-user-dirs p7zip unzip zip unrar gtk-engine-murrine
+sudo pacman -S xfce4 xfce4-screenshooter xfce4-clipman-plugin xfce4-whiskermenu-plugin dosfstools ntfs-3g ristretto gamin leafpad gvfs gnome-themes-standard firefox flashplugin slim xdg-user-dirs p7zip unzip zip unrar gtk-engine-murrine numlockx xbindkeys
 xdg-user-dirs-update
