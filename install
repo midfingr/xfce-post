@@ -5,7 +5,7 @@ sudo systemctl start haveged
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syy
-sudo pacman -S lxdm cantarell-fonts networkmanager networkmanager-dispatcher-ntpd network-manager-applet xfce4 xfce4-screenshooter xfce4-clipman-plugin dosfstools ntfs-3g ristretto gamin leafpad gvfs gnome-themes-standard firefox xdg-user-dirs p7zip unzip zip unrar gtk-engine-murrine numlockx xbindkeys synapse --noconfirm
+sudo pacman -S lxdm cantarell-fonts networkmanager networkmanager-dispatcher-ntpd network-manager-applet xfce4 xfce4-screenshooter xfce4-clipman-plugin dosfstools ntfs-3g ristretto gamin leafpad gvfs gnome-themes-standard thunar-archive-plugin chromium xdg-user-dirs p7zip unzip zip unrar gtk-engine-murrine numlockx xbindkeys synapse --noconfirm
 xdg-user-dirs-update
 sudo updatedb
 sudo systemctl enable lxdm
