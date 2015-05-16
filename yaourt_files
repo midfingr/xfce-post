@@ -1,2 +1,2 @@
 #!/bin/bash
-yaourt -S localepurge engrampa-thunar speedtest-cli profile-cleaner gtk-theme-config weatherman numix-circle-icon-theme-git--noconfirm
+yaourt -S localepurge engrampa-thunar speedtest-cli profile-cleaner gtk-theme-config weatherman numix-circle-icon-theme-git --noconfirm
